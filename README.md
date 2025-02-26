@@ -12,4 +12,13 @@ install instrumentation libraries
 
 ```bash 
 opentelemetry-bootstrap --action=install
+
+```
+
+Run the app 
+
+```bash
+#NR
+opentelemetry-instrument python myapp.py
+
 ```

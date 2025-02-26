@@ -16,7 +16,7 @@ async def add_numbers(a: int, b: int):
 
 @app.get("/search_name")
 async def call_external_api(name: str = 'Kevin'):
-    response = requests.get(f"https://api.nationalize.io?name={name}")  
+    response = requests.get(f"https://api.snationalize.io?name={name}")  
     if response.status_code == 200:
         return response.json()
     return {"error": "Failed to fetch data from external API"}
