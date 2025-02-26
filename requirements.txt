@@ -1,3 +1,10 @@
 fastapi 
 uvicorn 
 requests
+
+## Auto Instrumentation
+opentelemetry-instrumentation
+opentelemetry-distro
+opentelemetry-exporter-otlp
+
+## Manual Instrumentation
