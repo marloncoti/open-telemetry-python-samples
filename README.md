@@ -9,4 +9,7 @@ python -m pip install opentelemetry-instrumentation \
 
 
 install instrumentation libraries   
-`opentelemetry-bootstrap --action=install`
+
+```bash 
+opentelemetry-bootstrap --action=install
+```
