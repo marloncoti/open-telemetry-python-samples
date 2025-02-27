@@ -7,4 +7,10 @@ opentelemetry-instrumentation
 opentelemetry-distro
 opentelemetry-exporter-otlp
 
-## Manual Instrumentation
+## Manual Instrumentation - custom traces
+opentelemetry-sdk
+opentelemetry-instrumentation-fastapi
+structlog
+
+
+
