@@ -5,8 +5,10 @@ this repo contains a demo app with  core conepts to understand the instrumentati
 
 step01 ->  basic demo app (No instrumentation)  
 `git checkout step01-basic-service`
+
 step02 -> added autoinstrumentations in existing apps
 ` git checkout step02-auto-instrumentation`
+
 step03 ->  enhance telemetry with enhance traces and spans to cover business logic. 
 `git checkout  step03-custom-traces`
 
